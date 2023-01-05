@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+  </head>
+  <body>
+    <h1>Create Account</h1>
+    <form action="#">
+      <div>
+        <label for="First">First name </label>
+        <input
+          id="First"
+          type="text"
+          placeholder="First name"
+          required="required"
+        />
+      </div>
+      <div>
+        <label for="Last">Last name </label>
+        <input
+          id="Last"
+          type="text"
+          placeholder="Last name"
+          required="required"
+        />
+      </div>
+      <div>
+        <label for="Email">Email</label>
+        <input
+          id="Email"
+          type="email"
+          placeholder="Email"
+          required="required"
+        />
+      </div>
+      <div>
+        <label for="name">User name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="User name"
+          required="required"
+        />
+      </div>
+      <div>
+        <label for="pass">Password</label>
+        <input
+          type="password"
+          id="pass"
+          placeholder="password"
+          minlength="10"
+          required="required"
+        />
+      </div>
+      <div>
+        <label for="birth">Birth-Date</label>
+        <input type="date" id="birth" required="required" />
+      </div>
+      <div>
+        <label for="happy">How Happy are you?</label>
+        <input type="range" id="happy" list="markers" required="required" />
+        <datalist id="markers">
+          <option value="0"></option>
+          <option value="20"></option>
+          <option value="40"></option>
+          <option value="60"></option>
+          <option value="80"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="color">What is your fav, color</label>
+        <input type="color" id="color" required="required" />
+      </div>
+      <div>
+        <input type="submit" value="create account" />
+      </div>
+    </form>
+  </body>
+</html>
