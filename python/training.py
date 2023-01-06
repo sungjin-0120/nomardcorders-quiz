@@ -1,12 +1,2 @@
-player={
-    'name':'nico',
-    'age':12,
-    'alive':True
-}
-print(player.get('age'))
-
-"""
-week=['MOn','Tue','Wed','Thu','Fri']
-week.remove('Fri')
-print(week)
-"""
+fav_food=('🍕','🍔','🍗','🥗',[1,2,3])
+print(fav_food)
