@@ -7,26 +7,44 @@
     <title>flex shape</title>
     <style>
       body {
-        margin: 0;
-        padding: 50px 144px;
         background-color: tomato;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
-      #mom {
-        width: 500px;
-        height: 500px;
-        background-color: wheat;
+      .btn {
         border: 1px solid black;
       }
-      .box {
-        width: 50px;
-        height: 50px;
-        background-color: aqua;
+      .btn2 {
+        border: 1px solid white;
+      }
+      .wheat {
+        width: 100px;
+        height: 100px;
+        background-color: wheat;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+      .teal {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        background-color: teal;
+      }
+      #dash {
+        border-style: dashed;
+        width: 80px;
       }
     </style>
   </head>
   <body>
-    <div id="mom">
-      <div class="box"></div>
+    <div class="btn wheat">
+      <div class="btn2 teal"></div>
+      <div id="dash" class="btn2 teal"></div>
+      <div class="btn2 teal"></div>
     </div>
   </body>
 </html>
