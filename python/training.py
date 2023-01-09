@@ -26,7 +26,7 @@ else:
         jobs_data={
             'company': company.string.strip(),
             'title': title.string.strip(),
-            'link':f"https://remoteok.com/remote-jobs{link}.strip()"
+            'link':f"https://remoteok.com/remote-jobs{link}"
         }
         print(jobs_data)
         
