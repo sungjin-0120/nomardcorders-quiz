@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxx {
+  margin-top: 10px;
+}
+.boxx_box {
+  display: inline-block;
+  background-color: white;
+  width: 150px;
+  height: 200px;
+  position: relative;
+}
+.boxx_box:first-child {
+  background-color: tomato;
+  border: 5px solid white;
+}
+.boxx_box:last-child {
+  background-color: thistle;
+  border: 5px solid white;
+}
+.kl:first-child {
+  background-color: burlywood;
+}
+.kl:last-child {
+  background-color: thistle;
+}
+.btn {
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+}
