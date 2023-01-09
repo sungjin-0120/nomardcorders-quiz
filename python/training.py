@@ -12,20 +12,16 @@ else:
     for body in bodys:
         title = body.find('h2', itemprop="title")
         company = body.find('h3', itemprop="name")
-        region, pay = body.find('div', class_="location tooltip")
+        
+        tooltips= body.find('div', class_="location tooltip")
+        print(tooltips)
         anchors = body.find_all('a', itemprop="url", class_="preventLink")
+       
+        """
         for anchor in anchors:
             link = anchor['href']
-            if region == None or pay == None:
-                jobs_datas= {
-                    'company': company.string.replace("\n", " ").replace(","," "),
-                    'title':title.string.replace("\n", " "),
-                    'region': 'None',
-                    'pay': 'None',
-                    'link':f"https://remoteok.com/remote-jobs{link}"
-                }
-            else:
-                jobs_datas= {
+            
+            jobs_datas= {
                     'company': company.string.replace("\n", " "),
                     'title':title.string.replace("\n", " "),
                     'region': region.string.replace("\n", " "),
@@ -33,6 +29,7 @@ else:
                     'link':f"https://remoteok.com/remote-jobs{link}"
                 }
             print(jobs_datas)
+        """
             
 
      
