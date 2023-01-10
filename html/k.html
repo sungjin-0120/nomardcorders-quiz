@@ -4,21 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>the 007</title>
+    <title>Document</title>
     <style>
-      @keyframes noTime {
+      @keyframes noTi {
         0% {
-          transform: translate(0);
-        }
-
-        25% {
-          transform: translate(50px, 50%);
+          transform: rotateZ(0);
         }
         50% {
-          transform: translate(100px, 100%);
+          transform: rotateZ(360deg);
         }
         100% {
-          transform: translate(0);
+          transform: rotateZ(0);
         }
       }
       body {
@@ -27,20 +23,33 @@
         justify-content: center;
         align-items: center;
       }
-      img {
-        width: 300px;
-        height: 300px;
-        margin: 50px;
-        border: 5px solid black;
+      .cir {
+        display: flex;
+        justify-content: space-between;
+      flex-wrap: wrap;
+        align-items: center;
+        width: 500px;
+        height: 500px;
+        border: 2px solid white;
+        background-color: white;
+        animation: noTi 2s ease-in-out infinite;
+      }
+      .ci{
+        
+        width: 100px;
+        height: 100px;
+        background-color: blue;
         border-radius: 50%;
-        animation: noTime 1s ease-in-out infinite;
+        margin: 24px;
       }
     </style>
   </head>
   <body>
-    <img
-      src="C:\Users\lee\Desktop\nomardcorders-quiz\html\James_Bond_007_logo-1.png"
-    />
-    <span>hekdfjksfk</span>
+    <div class="cir">
+      <div class="ci"></div>
+      <div class="ci"></div>
+      <div class="ci"></div
+    </div>
   </body>
+
 </html>
