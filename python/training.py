@@ -17,7 +17,12 @@ else:
         anchors = body.find_all('a', itemprop="url", class_="preventLink")
         for anchor in anchors:
             link = anchor['href']
-        location = body.find('div', class_="location")
+        locations = body.find_all('div', class_="location")
+        for location in locations:
+            region= location[1]
+            print(region)
+        
+        """
         jobs_data={
             'company': company.string.strip(),
             'title': title.string.strip(),
@@ -25,6 +30,7 @@ else:
             'link':f"https://remoteok.com/remote-jobs{link}"
         }
         print(jobs_data)
+        """
         
         
         
