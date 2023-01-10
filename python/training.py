@@ -9,7 +9,6 @@ else:
     soup = BeautifulSoup(request.text, "html.parser")
     bodys = soup.find_all('td', class_="company position company_and_position")
     bodys.pop(0)
-    
     for body in bodys:
         
         title = body.find('h2', itemprop="title")
@@ -18,17 +17,17 @@ else:
         anchors = body.find_all('a', itemprop="url", class_="preventLink")
         for anchor in anchors:
             link = anchor['href']
-     
-        region = body.find_all('div', class_="location")
-        
-        
-        
+        location = body.find('div', class_="location")
         jobs_data={
             'company': company.string.strip(),
             'title': title.string.strip(),
+            'location':location.string.strip(),
             'link':f"https://remoteok.com/remote-jobs{link}"
         }
         print(jobs_data)
+        
+        
+        
         
     
         
