@@ -1,0 +1,62 @@
+@keyframes spell {
+  0% {
+    transform: scaley(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes cspell {
+  0% {
+    transform: translate3d();
+  }
+  50% {
+  }
+  100% {
+  }
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  margin-bottom: 500px;
+}
+.cir {
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 100px;
+}
+.aq {
+  margin: 5px;
+  background-color: aqua;
+  display: inline-block;
+  height: 250px;
+  width: 100px;
+  animation: spell 2s ease-in-out infinite;
+}
+#i6 {
+  animation-delay: 0.1s;
+}
+#i7 {
+  animation-delay: 0.3s;
+}
+#i8 {
+  animation-delay: 0.5s;
+}
+#i9 {
+  animation-delay: 0.7s;
+}
+#i10 {
+  animation-delay: 0.9s;
+}

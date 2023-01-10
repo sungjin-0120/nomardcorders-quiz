@@ -28,7 +28,9 @@ else:
             'location':location_2.string.strip(),
             'pay':pay.string.strip(),
             'link':f"https://remoteok.com/remote-jobs{link}"
+
         }
+        
         print(jobs_data)
         
         
