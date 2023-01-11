@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  height: 200vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1300px;
+  width: 1000px;
+  border: 10px solid white;
+}
+div {
+  width: 500px;
+}
+.statu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statu-bar__column {
+  font-size: 30px;
+}
+.title-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.title-bar__row:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: yellowgreen;
+  border: 5px solid black;
+  border-radius: 15%;
+  font-size: 100px;
+  margin-right: 30px;
+}
+.title-bar__row:last-child {
+  font-size: 20px;
+}
+.button-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.k {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-width: 2ex 1.25ex 0.5ex;
+}
+.button-bar__pl {
+  width: 150px;
+  height: 100px;
+  border-radius: 30%;
+}
+.button-bar__cir {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.pl-list {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.pl-list__mu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.pl-list__mu__al {
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 30%;
+  margin-right: 30px;
+}
+#i1 {
+  background-color: tomato;
+}
+#i2 {
+  background-color: teal;
+}
+#i3 {
+  background-color: blue;
+}
+#i4 {
+  background-color: pink;
+}
