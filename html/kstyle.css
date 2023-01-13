@@ -48,6 +48,7 @@ body {
   width: 50%;
   margin: 0 auto;
   margin-top: 20px;
+  margin-right: 86px;
 }
 .body1__button__sub {
   width: 80px;
@@ -67,7 +68,7 @@ body {
   align-items: center;
   font-size: 10px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-right: 20px;
   border: none;
 }
 .body1__button__heart i {
