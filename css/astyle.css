@@ -1,0 +1,19 @@
+html {
+  background-color: aqua;
+}
+body {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: beige;
+}
+.body1__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 30px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
