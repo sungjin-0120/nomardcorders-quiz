@@ -4,12 +4,13 @@ html {
 
 body {
   max-width: 300px;
-  height: 800px;
+  height: 550px;
   margin: 0 auto;
   margin-top: 10px;
   background-color: whitesmoke;
   box-sizing: border-box;
   border-radius: 30px;
+  height: 550px;
 }
 .body1__header {
   width: 95%;
@@ -130,6 +131,7 @@ body {
   border-radius: 30px;
   display: flex;
   justify-content: center;
+
   position: fixed;
   bottom: 30px;
 }
