@@ -3,7 +3,7 @@ html {
 }
 body {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .body1 {
   width: 300px;
@@ -135,7 +135,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: 40px;
+  bottom: 50px;
 }
 .body1__control__name h3 {
   font-size: 10px;
